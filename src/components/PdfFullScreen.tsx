@@ -13,7 +13,7 @@ import { useResizeDetector } from 'react-resize-detector'
 interface pdfFullScreenProps{
     fileUrl:string
 }
-export default function Temp({fileUrl}:pdfFullScreenProps){
+export default function PdfFullScreen({fileUrl}:pdfFullScreenProps){
     const {toast}=useToast();
     const[numPages,setNumPages]=useState<number | null>(null);
     const[currPage,setCurrPage]=useState<number>(1);

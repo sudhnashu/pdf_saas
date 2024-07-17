@@ -11,7 +11,7 @@ import { Toaster } from "./ui/toaster";
 import { useToast } from "./ui/use-toast";
 import { trpc } from "@/app/_trpc/client";
 import { useRouter } from "next/navigation";
-export default function Temp(){
+export default function UploadButton(){
    
     const [isOpen,setIsOpen]=useState<boolean>(false);
     

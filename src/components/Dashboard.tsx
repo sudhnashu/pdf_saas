@@ -7,7 +7,7 @@ import Link from "next/link";
 import {format} from 'date-fns'
 import { Button } from "./ui/button";
 import { useState } from "react";
-export default function Temp(){
+export default function Dashboard(){
 
   const [currentlyDeletingFile,setCurrentlyDeletingFile]=useState<string | null>(null);
    const utils=trpc.useContext();

@@ -6,7 +6,7 @@ import { ChatContext } from "./ChatContext"
 interface chatInputProps{
     isDisabled?: boolean
 }
-export default function Temp({isDisabled}:chatInputProps){
+export default function ChatInput({isDisabled}:chatInputProps){
     const {addMessage,handleInputChange,isLoading,message}=useContext(ChatContext)
     const textareaRef=useRef<HTMLTextAreaElement>(null);
     return (
