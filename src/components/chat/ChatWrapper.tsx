@@ -10,7 +10,7 @@ import { ChatContextProvider } from "./ChatContext";
 interface ChatWrapperProps{
     fileId: string; // replace with actual file ID fetched from the API call. For now, using a placeholder string.  // Example: "file-12345"  // In the actual implementation, fetch the file ID from the API call.  // const fileId = await fetchFileIdFromApi();  // return fileId;  // Example: "file-12345"  // In the actual implementation, fetch the file ID from the API call.  // const fileId = await fetchFileIdFromApi();  // return fileId;  // Example: "file-12345"  // In the actual implementation, fetch the file ID from the API call.  // const fileId = await fetchFileIdFromApi();  // return fileId;  // Example: "file-12345"  // In the actual implementation, fetch the file ID from the API call.  //
 }
-export default function({fileId}:ChatWrapperProps){
+export default function Temp({fileId}:ChatWrapperProps){
     const {data,isLoading}=trpc.getFileUploadStatus.useQuery({fileId},{
         // // whatever we return will be accessable here
         

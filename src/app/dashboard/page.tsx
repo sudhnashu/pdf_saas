@@ -4,7 +4,7 @@ import { getKindeServerSession } from "@kinde-oss/kinde-auth-nextjs/server"
 import { redirect } from "next/navigation";
 
 
-export default async function(){
+export default async function Temp(){
     
  // used to get the details of the user when he is logged in
     const {getUser}=getKindeServerSession();

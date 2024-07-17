@@ -10,7 +10,7 @@ import {useIntersection} from '@mantine/hooks'
 interface messagingProps{
     fileId:string
 }
-export default function({fileId}:messagingProps){
+export default function Temp({fileId}:messagingProps){
 
     const {isLoading:isAiThinking}=useContext(ChatContext);
 

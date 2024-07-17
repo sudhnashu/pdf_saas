@@ -27,7 +27,7 @@ interface PdfRendererProps{
   url:string
 }
 
-export default function({url}:PdfRendererProps){
+export default function Temp({url}:PdfRendererProps){
   const {toast}=useToast();
   const {width,ref}=useResizeDetector();
   const[numPages,setNumPages]=useState<number | null>(null);
